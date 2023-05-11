@@ -1,0 +1,75 @@
+.notifications {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nova-obavijest {
+  margin-right: 20px;
+}
+
+.obavijesti {
+  display: inline-block;
+  justify-content: center;
+  flex: 2 1 500px;
+  font-size: 16px;
+}
+
+.notifications form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.notifications label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.notifications input[type="text"],
+.notifications textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+.notifications button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.notifications button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.notifications input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.obavijesti table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.obavijesti td {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.vazno {
+  font-size: 18px;
+}

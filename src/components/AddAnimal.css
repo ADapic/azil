@@ -1,0 +1,74 @@
+.add-animal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.add-animal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  background-color: #8cae68;
+  border-radius: 10px;
+}
+
+/* style the labels */
+.add-animal label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* style the inputs */
+.add-animal input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.add-animal select {
+  width: 103%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.add-animal textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* style the submit button */
+.add-animal button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* style the error message */
+.add-animal span {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

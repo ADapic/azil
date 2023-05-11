@@ -1,0 +1,73 @@
+.animal-list-container {
+  margin: 20px;
+}
+
+.animal-list-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.animal-list-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+}
+
+.animal-list-table th,
+.animal-list-table td {
+  border: 1px solid #808080;
+  padding: 8px;
+  text-align: left;
+}
+
+.animal-list-table th {
+  background-color: #555;
+  font-weight: bold;
+}
+
+.animal-list-table tr:hover {
+  background-color: #ddd;
+}
+tr.udomljena {
+  background-color: #60992d;
+}
+
+tr.nije-udomljena {
+  background-color: #fd8995;
+}
+
+.animal-list-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.animal-list-filter {
+  margin-right: 1rem;
+}
+
+.animal-list-filter label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.animal-list-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.animal-list-filter-options div {
+  margin-right: 0.5rem;
+}
+
+.animal-list-filter-options label {
+  margin-right: 0.5rem;
+}
+
+.animal-list-filter-options input[type="radio"] {
+  margin-right: 0.25rem;
+}
